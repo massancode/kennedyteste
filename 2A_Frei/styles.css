@@ -31,4 +31,17 @@
     header div a:hover {
      font-size:40px;
      transition: 500ms;
+     animation-name: movemenu;
+     animation-timing-function: ease-in  ;
     }
+
+    @keyframes move-menu{
+        0%{
+          margin-left: 500px;
+        }
+        100%{
+            margin-right: 15px;
+        }
+    }
+
+    
